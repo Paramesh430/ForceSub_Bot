@@ -54,7 +54,7 @@ def _check_member(client, message):
       except UserNotParticipant:
         try:
           sent_message = message.reply_text(
-              " {} , you are not subscribed to my channel yet. Please join using below button and press the UnMute Me button to unmute yourself.".format(message.from_user.mention, channel, channel),
+              " {} , you are not subscribed to our channel yet. Please join using below button and press the UnMute Me button to unmute yourself. and ask movies in proper format ledante we won't respond to  your message".format(message.from_user.mention, channel, channel),
               disable_web_page_preview=True,
              reply_markup=InlineKeyboardMarkup(
             [
@@ -123,4 +123,4 @@ def config(client, message):
       else:
         message.reply_text("❌ **Force Subscribe is disabled in this chat.**")
   else:
-      message.reply_text("❗ **Group Creator Required**\n__You have to be the group creator to do that.__")
+      message.reply_text("❗ **Pakkaki Poyi adukomma**\n__You have to be the group creator to do that.__")
